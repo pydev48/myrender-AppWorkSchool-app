@@ -42,6 +42,7 @@ def layout():
                         options=projects_list,
                         value=composite_list,
                         multi=True,
+                        style={'color': 'black'},
                     ),
                     dcc.Graph(id="gantt-graph"),
                 ], xs=8, sm=8, md=10, lg=10, xl=10, xxl=10)

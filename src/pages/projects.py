@@ -27,7 +27,7 @@ def layout():
                                  options=df['District'].unique(),
                                  value=["Lichtenberg", "Pankow", "Spandau"],
                                  multi=True,
-                                 style={'color':'black'}
+                                 style={'color':'black'},
                                  ),
                     html.Hr(),
                     dcc.Graph(id='line_chart', figure={}),

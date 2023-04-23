@@ -12,10 +12,10 @@ layout = html.Div([
     dcc.Markdown('### Professional Summary', style={'textAlign': 'center'}),
     html.Hr(),
     dcc.Markdown('Results-driven Project Lead with extensive experience in managing complex projects from initiation to'
-                 ' completion. \n'
-                 'Highly adaptable and able to navigate ambiguity in a fast-paced environment. \n'
-                 'Proven track record of leading cross-functional teams and ensuring project milestones are met on time '
-                 'and within budget.',
+                 ' completion.  \n'
+                 'Proven track record of leading cross-functional teams and ensuring project milestones are met on time\n'
+                 ' '
+                 'and within budget. Passionate about leveraging data to drive business growth. ',
                  style={'textAlign': 'center', 'white-space': 'pre'}),
 
     dcc.Markdown('### Skills', style={'textAlign': 'center'}),
@@ -23,7 +23,7 @@ layout = html.Div([
     dbc.Row([
         dbc.Col([
             dcc.Markdown('''
-            * Project implementation
+            * Project implementation and coordination
             * Effective communication
             * Process development and improvement
             ''')
@@ -51,7 +51,7 @@ layout = html.Div([
                          className='ms-3'),
             html.Ul([
                 html.Li('Led a new product development team of 5 engineers in the successful development and deployment'),
-                html.Li('Collected and manipulated multiple Excel files to visualize and analyze Engineering test builds using Python programming language(see App3)'),
+                html.Li('Collected and manipulated multiple Excel files to visualize and analyze Engineering test builds using Python programming language(see Projects - App3)'),
                 # html.Li(''),
                 html.Li('Collaborated with cross-functional teams to implement project plans, ensuring quality and improving scalability for future growth')
             ])

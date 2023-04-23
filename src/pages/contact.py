@@ -18,9 +18,10 @@ def layout():
     dcc.Markdown('0921-787-938'),
     dcc.Markdown('Email', style=green_text),
     dcc.Markdown('awesomewei.career@gmail.com'),
+
     # dcc.Markdown('Linkedin', style=green_text),
     # dcc.Markdown('[www.linkedin.com/in/cooper-chen-0968b21a1/](https://www.linkedin.com/in/cooper-chen-0968b21a1//)', link_target='_blank'),
     # dcc.Markdown('?', style=green_text),
-    # dcc.Markdown('[www.youtube.com/charmingdata](https://www.youtube.com/charmingdata)', link_target='_blank'),
+    # dcc.Markdown('[]()', link_target='_blank'),
         ], width={'size':6, 'offset':2})
 ], justify='center')

@@ -41,6 +41,7 @@ def layout():
                         value=state_list[:6],
                         options=state_list,
                         multi=True,
+                        style={'color': 'black'},
                     ),
                     dcc.Graph(id="bar-polar-app-x-graph", figure={}),
                 ], xs=8, sm=8, md=10, lg=10, xl=10, xxl=10)
